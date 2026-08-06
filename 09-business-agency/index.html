@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fieldstone — Creative &amp; Marketing Agency</title>
+<meta name="description" content="Fieldstone is a small creative agency for brand, web, and marketing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">FIELDSTONE</a>
+    <nav class="nav" id="nav">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Start a project</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container">
+      <p class="eyebrow">Brand · Web · Marketing</p>
+      <h1>We build brands that <span class="highlight">move markets.</span></h1>
+      <p class="hero-sub">Fieldstone is a small, senior team helping ambitious companies with strategy, design, and growth — no bloated retainers, no junior hand-offs.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start a project</a>
+        <a href="#work" class="btn btn-outline-light">View our work</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="client-strip">
+    <div class="container client-strip-inner">
+      <span>Northlane</span><span>Ferro Digital</span><span>Bramble</span><span>Ecliptic</span><span>Vantage Point</span><span>Solstice</span>
+    </div>
+  </section>
+
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Selected Work</span>
+        <h2>Case studies</h2>
+      </div>
+      <div class="case-grid">
+        <article class="case-card case-1">
+          <div class="case-inner">
+            <span class="case-cat">Brand + Web</span>
+            <h3>Northlane Financial</h3>
+            <p>Full rebrand and website redesign that increased signups by 64%.</p>
+          </div>
+        </article>
+        <article class="case-card case-2">
+          <div class="case-inner">
+            <span class="case-cat">Marketing</span>
+            <h3>Bramble Foods</h3>
+            <p>Go-to-market campaign that drove a 3x increase in retail distribution.</p>
+          </div>
+        </article>
+        <article class="case-card case-3">
+          <div class="case-inner">
+            <span class="case-cat">Product Design</span>
+            <h3>Ecliptic Health</h3>
+            <p>Redesigned patient app, improving onboarding completion by 41%.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag tag-light">Services</span>
+        <h2>What we do</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-row">
+          <h3>Brand Strategy &amp; Identity</h3>
+          <p>Positioning, naming, visual identity, and brand guidelines built to scale.</p>
+        </div>
+        <div class="service-row">
+          <h3>Web Design &amp; Development</h3>
+          <p>Fast, conversion-focused websites — from marketing sites to full web apps.</p>
+        </div>
+        <div class="service-row">
+          <h3>Growth Marketing</h3>
+          <p>Paid, organic, and lifecycle marketing strategies tied directly to revenue.</p>
+        </div>
+        <div class="service-row">
+          <h3>Content &amp; Campaigns</h3>
+          <p>Campaign concepts and content production that actually get noticed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div>
+        <span class="tag">About Fieldstone</span>
+        <h2>Small team. Senior talent. No fluff.</h2>
+        <p>Fieldstone was founded in 2017 by a small group of agency veterans tired of watching great strategy get lost in bureaucracy. We stay intentionally small — every client works directly with senior strategists and designers, not account managers relaying notes.</p>
+      </div>
+      <div class="stats-grid">
+        <div><strong>60+</strong><span>Brands launched</span></div>
+        <div><strong>9</strong><span>Years in business</span></div>
+        <div><strong>94%</strong><span>Client retention</span></div>
+        <div><strong>12</strong><span>Team members</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-section" id="contact">
+    <div class="container cta-inner">
+      <h2>Tell us about your project.</h2>
+      <p>We take on a limited number of new clients each quarter — let's see if we're a fit.</p>
+      <form class="project-form" id="contactForm">
+        <div class="form-row-2">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Work email" required>
+        </div>
+        <input type="text" name="company" placeholder="Company">
+        <textarea name="message" rows="4" placeholder="Tell us a bit about your project" required></textarea>
+        <button type="submit" class="btn btn-primary">Send inquiry</button>
+      </form>
+      <p class="form-note" id="formNote" role="status"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Fieldstone Agency</p>
+    <div class="footer-social">
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

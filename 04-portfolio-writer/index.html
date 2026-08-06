@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sam Okafor — Writer &amp; Journalist</title>
+<meta name="description" content="Portfolio of Sam Okafor, freelance writer and journalist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Sam Okafor</a>
+    <nav class="nav" id="nav">
+      <a href="#writing">Writing</a>
+      <a href="#about">About</a>
+      <a href="#press">Press</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Freelance Writer · Journalist · Essayist</p>
+      <h1>Stories about technology, culture, and the people caught between them.</h1>
+      <p class="hero-sub">Bylines in The Atlantic, Wired, and The Guardian. Currently writing a book about the future of work.</p>
+      <a href="#writing" class="btn btn-primary">Read my work</a>
+    </div>
+  </section>
+
+  <section class="section" id="writing">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Selected Writing</span>
+        <h2>Recent essays &amp; reporting</h2>
+      </div>
+      <div class="article-list">
+        <article class="article-row">
+          <span class="article-date">Jun 2026</span>
+          <div class="article-body">
+            <h3>The Quiet Collapse of the Open Web</h3>
+            <p>How algorithmic feeds reshaped the way we discover — and lose — information online.</p>
+            <span class="article-pub">The Atlantic</span>
+          </div>
+          <a href="#" class="article-link">Read →</a>
+        </article>
+        <article class="article-row">
+          <span class="article-date">Mar 2026</span>
+          <div class="article-body">
+            <h3>Inside the Last Analog Newsroom</h3>
+            <p>A profile of the small-town paper that still runs on typewriters and trust.</p>
+            <span class="article-pub">Wired</span>
+          </div>
+          <a href="#" class="article-link">Read →</a>
+        </article>
+        <article class="article-row">
+          <span class="article-date">Dec 2025</span>
+          <div class="article-body">
+            <h3>What We Owe Each Other at Work</h3>
+            <p>An essay on obligation, burnout, and the myth of the passionate employee.</p>
+            <span class="article-pub">The Guardian</span>
+          </div>
+          <a href="#" class="article-link">Read →</a>
+        </article>
+        <article class="article-row">
+          <span class="article-date">Sep 2025</span>
+          <div class="article-body">
+            <h3>The Second Life of Small Cities</h3>
+            <p>How remote work quietly rewired mid-sized American towns.</p>
+            <span class="article-pub">Bloomberg CityLab</span>
+          </div>
+          <a href="#" class="article-link">Read →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="about">
+    <div class="container about-grid">
+      <div class="about-portrait" aria-hidden="true"></div>
+      <div>
+        <span class="tag">About</span>
+        <h2>Hi, I'm Sam.</h2>
+        <p>I'm a freelance journalist and essayist based in Chicago, writing about the intersection of technology, work, and everyday life. My reporting has appeared in The Atlantic, Wired, The Guardian, and Bloomberg CityLab.</p>
+        <p>Before going freelance, I spent six years as a staff reporter covering the tech industry. These days I split my time between longform journalism, ghostwriting, and a slow-going book about the future of work.</p>
+        <a href="#contact" class="btn btn-outline">Work with me</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="press">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Recognition</span>
+        <h2>Press &amp; features</h2>
+      </div>
+      <div class="press-grid">
+        <div class="press-item"><strong>2025</strong><p>Finalist, National Magazine Award for Essays</p></div>
+        <div class="press-item"><strong>2024</strong><p>Featured speaker, Longform Podcast Festival</p></div>
+        <div class="press-item"><strong>2023</strong><p>"30 Writers to Watch" — Columbia Journalism Review</p></div>
+        <div class="press-item"><strong>2022</strong><p>Winner, Livingston Award for Young Journalists (Regional)</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section quote-section">
+    <div class="container">
+      <blockquote>"Sam has a rare gift for making complicated systems feel human — every piece leaves you understanding something you didn't before."</blockquote>
+      <cite>— Editor, The Atlantic</cite>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Get in touch</span>
+        <h2>Have a story idea or a project in mind?</h2>
+        <p class="contact-sub">I'm open to freelance assignments, ghostwriting, and speaking engagements.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@samokafor.com">hello@samokafor.com</a>
+          <a href="#">X / Twitter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="5" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Sam Okafor</p>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

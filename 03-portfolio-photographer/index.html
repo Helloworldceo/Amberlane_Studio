@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nadia Kessler Photography</title>
+<meta name="description" content="Portfolio of Nadia Kessler, portrait and travel photographer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">NADIA KESSLER</a>
+    <nav class="nav" id="nav">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Portrait &amp; Travel Photographer</p>
+      <h1>Capturing quiet, honest moments</h1>
+      <a href="#portfolio" class="btn btn-outline-light">View portfolio</a>
+    </div>
+    <a href="#portfolio" class="scroll-cue" aria-hidden="true">↓</a>
+  </section>
+
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Portfolio</span>
+        <h2>Recent work</h2>
+      </div>
+      <div class="gallery">
+        <figure class="gallery-item g1"><figcaption><h3>Golden Hour</h3><span>Portrait Series</span></figcaption></figure>
+        <figure class="gallery-item g2"><figcaption><h3>Coastal Roads</h3><span>Travel</span></figcaption></figure>
+        <figure class="gallery-item g3"><figcaption><h3>The Wedding Party</h3><span>Editorial</span></figcaption></figure>
+        <figure class="gallery-item g4"><figcaption><h3>City at Dusk</h3><span>Street</span></figcaption></figure>
+        <figure class="gallery-item g5"><figcaption><h3>Highlands</h3><span>Landscape</span></figcaption></figure>
+        <figure class="gallery-item g6"><figcaption><h3>Studio Sessions</h3><span>Portrait</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-split" id="about">
+    <div class="split-media"></div>
+    <div class="split-content">
+      <span class="tag">About</span>
+      <h2>Hi, I'm Nadia.</h2>
+      <p>I've spent the last nine years photographing people and places across four continents. My work centers on natural light, genuine expression, and moments that don't need to be staged to feel meaningful.</p>
+      <p>Based between Lisbon and wherever the next assignment takes me, I shoot editorial portraits, destination weddings, and long-form travel stories for publications and private clients alike.</p>
+      <div class="about-stats">
+        <div><strong>9</strong><span>Years shooting</span></div>
+        <div><strong>120+</strong><span>Weddings</span></div>
+        <div><strong>30</strong><span>Countries</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag tag-light">Services</span>
+        <h2>What I offer</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <span class="service-num">01</span>
+          <h3>Portrait Sessions</h3>
+          <p>Individual, couple, and family sessions on location or in-studio.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-num">02</span>
+          <h3>Weddings</h3>
+          <p>Full-day documentary-style coverage, from getting-ready to the last dance.</p>
+        </div>
+        <div class="service-card">
+          <span class="service-num">03</span>
+          <h3>Editorial &amp; Travel</h3>
+          <p>Story-driven shoots for magazines, brands, and personal projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section testimonial-section">
+    <div class="container">
+      <blockquote>
+        <p>"Nadia has this rare ability to make you forget the camera is even there. Our wedding photos feel like memories, not portraits."</p>
+        <cite>— Elena &amp; James, married in Porto</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Contact</span>
+        <h2>Let's create something beautiful.</h2>
+        <p class="contact-sub">Currently booking sessions for Spring &amp; Summer 2026.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@nadiakessler.com">hello@nadiakessler.com</a>
+          <a href="tel:+15551234567">+1 (555) 123-4567</a>
+        </div>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Session type
+          <select name="type">
+            <option>Portrait</option>
+            <option>Wedding</option>
+            <option>Editorial / Travel</option>
+          </select>
+        </label>
+        <label>Message <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-dark">Send inquiry</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Nadia Kessler Photography</p>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

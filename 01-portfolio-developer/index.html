@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alex Rivera — Software Engineer</title>
+<meta name="description" content="Portfolio of Alex Rivera, a full-stack software engineer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">alex<span>.dev</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline nav-cta">Let's talk</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow"><span class="dot"></span> Available for freelance work</p>
+      <h1>I build fast, reliable software for the web.</h1>
+      <p class="hero-sub">I'm Alex Rivera, a full-stack engineer specializing in TypeScript, React, and distributed systems. I turn complex problems into clean, maintainable code.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch →</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>7+</strong><span>Years experience</span></div>
+        <div><strong>60+</strong><span>Projects shipped</span></div>
+        <div><strong>18</strong><span>Happy clients</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-card">
+        <span class="tag">01 / About</span>
+        <h2>Engineer, problem-solver, occasional designer.</h2>
+        <p>I've spent the last 7 years building products for startups and scale-ups — from early-stage MVPs to systems handling millions of requests a day. I care about developer experience, performance, and code that's easy to delete.</p>
+        <p>When I'm not shipping features, I'm contributing to open source, mentoring junior engineers, or writing about backend architecture on my blog.</p>
+        <div class="about-facts">
+          <div><span class="k">Based in</span><span class="v">Austin, TX (remote-friendly)</span></div>
+          <div><span class="k">Focus</span><span class="v">Full-stack · Infra · DX</span></div>
+          <div><span class="k">Currently</span><span class="v">Staff Engineer @ Northstar</span></div>
+        </div>
+      </div>
+      <div class="terminal-card" aria-hidden="true">
+        <div class="terminal-bar"><span></span><span></span><span></span><p>zsh — alex@dev</p></div>
+        <pre class="terminal-body"><code><span class="c-prompt">$</span> whoami
+alex_rivera
+
+<span class="c-prompt">$</span> cat skills.json
+{
+  <span class="c-key">"languages"</span>: [<span class="c-str">"TypeScript"</span>, <span class="c-str">"Go"</span>, <span class="c-str">"Python"</span>],
+  <span class="c-key">"frontend"</span>: [<span class="c-str">"React"</span>, <span class="c-str">"Next.js"</span>],
+  <span class="c-key">"backend"</span>: [<span class="c-str">"Node"</span>, <span class="c-str">"PostgreSQL"</span>],
+  <span class="c-key">"cloud"</span>: [<span class="c-str">"AWS"</span>, <span class="c-str">"Docker"</span>, <span class="c-str">"k8s"</span>]
+}
+
+<span class="c-prompt">$</span> <span class="cursor">▍</span></code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <span class="tag">02 / Skills</span>
+      <h2 class="section-title">Tools I reach for</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>React, Next.js, TypeScript, Vue, Tailwind, accessible component design.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Node.js, Go, REST &amp; GraphQL APIs, PostgreSQL, Redis, event-driven systems.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Infrastructure</h3>
+          <p>AWS, Docker, Kubernetes, CI/CD pipelines, observability, cost optimization.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Practices</h3>
+          <p>TDD, code review culture, agile delivery, technical writing, mentoring.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="tag">03 / Projects</span>
+      <h2 class="section-title">Selected work</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb thumb-1">
+            <span class="thumb-glyph">&lt;/&gt;</span>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Ledger — Finance Dashboard</h3>
+              <a href="#" aria-label="View project">↗</a>
+            </div>
+            <p>Real-time analytics dashboard for a fintech startup, processing 2M+ transactions daily.</p>
+            <ul class="chip-list"><li>React</li><li>Node.js</li><li>PostgreSQL</li></ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-thumb thumb-2">
+            <span class="thumb-glyph">{ }</span>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Routewise — Logistics API</h3>
+              <a href="#" aria-label="View project">↗</a>
+            </div>
+            <p>Route-optimization microservice cutting delivery times by 23% for a logistics platform.</p>
+            <ul class="chip-list"><li>Go</li><li>Redis</li><li>AWS</li></ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-thumb thumb-3">
+            <span class="thumb-glyph">⌘</span>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Fieldnote — Notes App</h3>
+              <a href="#" aria-label="View project">↗</a>
+            </div>
+            <p>Offline-first note-taking app with end-to-end encrypted sync, 40k+ downloads.</p>
+            <ul class="chip-list"><li>Next.js</li><li>SQLite</li><li>PWA</li></ul>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-thumb thumb-4">
+            <span class="thumb-glyph">⚙</span>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3>Pulse — Monitoring Suite</h3>
+              <a href="#" aria-label="View project">↗</a>
+            </div>
+            <p>Internal observability platform used across 12 engineering teams to track uptime and errors.</p>
+            <ul class="chip-list"><li>TypeScript</li><li>Kubernetes</li><li>Grafana</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <span class="tag">04 / Experience</span>
+      <h2 class="section-title">Where I've worked</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2022 — Present</div>
+          <div class="timeline-content">
+            <h3>Staff Software Engineer, Northstar</h3>
+            <p>Leading the platform team building core infrastructure used by 40+ engineers. Reduced deploy times by 65%.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2019 — 2022</div>
+          <div class="timeline-content">
+            <h3>Senior Engineer, Brightloop</h3>
+            <p>Built the payments and billing system from scratch, now processing $10M+ annually.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2017 — 2019</div>
+          <div class="timeline-content">
+            <h3>Software Engineer, Fetch Labs</h3>
+            <p>Full-stack development across web and mobile for an early-stage marketplace startup.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">05 / Contact</span>
+        <h2 class="section-title">Let's build something together.</h2>
+        <p class="contact-sub">Have a project in mind, or just want to say hi? My inbox is always open.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@alexrivera.dev">hello@alexrivera.dev</a>
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">X / Twitter</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send message</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Alex Rivera. Built with care.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

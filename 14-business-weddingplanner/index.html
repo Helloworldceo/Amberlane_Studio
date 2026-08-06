@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evergreen &amp; Vine — Wedding &amp; Event Planning</title>
+<meta name="description" content="Evergreen & Vine is a full-service wedding and event planning studio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Evergreen <span>&amp;</span> Vine</a>
+    <nav class="nav" id="nav">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#process">Our Process</a>
+      <a href="#testimonials">Love Notes</a>
+      <a href="#contact">Inquire</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Full-Service Wedding &amp; Event Planning</p>
+      <h1>Your day, thoughtfully designed.</h1>
+      <p class="hero-sub">From first look to last dance, we plan and design weddings and celebrations that feel like you — down to the smallest detail.</p>
+      <a href="#contact" class="btn btn-primary">Inquire about your date</a>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Services</span>
+        <h2>How we can help</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Full Planning</h3>
+          <p>End-to-end planning from venue selection to day-of coordination, for couples who want to be as hands-off as they'd like.</p>
+        </div>
+        <div class="service-card">
+          <h3>Partial Planning</h3>
+          <p>You've started the planning — we step in a few months out to refine details and manage vendors.</p>
+        </div>
+        <div class="service-card">
+          <h3>Month-Of Coordination</h3>
+          <p>We take the reins in the final weeks so you can actually enjoy your own wedding.</p>
+        </div>
+        <div class="service-card">
+          <h3>Event Design</h3>
+          <p>Florals, styling, and decor concepts that bring your vision to life, down to the last candle.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Gallery</span>
+        <h2>Recent celebrations</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-tile g1"></div>
+        <div class="gallery-tile g2"></div>
+        <div class="gallery-tile g3"></div>
+        <div class="gallery-tile g4"></div>
+        <div class="gallery-tile g5"></div>
+        <div class="gallery-tile g6"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="process">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag tag-light">Our Process</span>
+        <h2>How we work together</h2>
+      </div>
+      <div class="process-steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Discovery Call</h3>
+          <p>We get to know you, your love story, and your vision over a relaxed conversation.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Design &amp; Planning</h3>
+          <p>We build your vendor team, timeline, and design concept together, step by step.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>Final Details</h3>
+          <p>In the final weeks, we finalize logistics so nothing is left to chance.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <h3>Your Celebration</h3>
+          <p>We're on-site all day, managing every detail so you can be fully present.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Love Notes</span>
+        <h2>From our couples</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card">
+          <p>"They thought of things we never would have. Our wedding day felt effortless because of them."</p>
+          <cite>Hannah &amp; Owen</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>"Worth every penny. I actually got to enjoy my own reception instead of managing it."</p>
+          <cite>Sofia &amp; Marcus</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>"From our first call, we trusted them completely. The design exceeded what we imagined."</p>
+          <cite>Grace &amp; Theo</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-section" id="contact">
+    <div class="container cta-inner">
+      <h2>Let's start planning.</h2>
+      <p>Tell us a little about your celebration and we'll be in touch within 48 hours.</p>
+      <form class="inquiry-form" id="contactForm">
+        <div class="form-row-2">
+          <input type="text" name="name" placeholder="Your name(s)" required>
+          <input type="email" name="email" placeholder="Email address" required>
+        </div>
+        <div class="form-row-2">
+          <input type="date" name="date" placeholder="Event date">
+          <select name="service">
+            <option>Full Planning</option>
+            <option>Partial Planning</option>
+            <option>Month-Of Coordination</option>
+            <option>Event Design Only</option>
+          </select>
+        </div>
+        <textarea name="message" rows="4" placeholder="Tell us about your vision"></textarea>
+        <button type="submit" class="btn btn-primary">Send inquiry</button>
+      </form>
+      <p class="form-note" id="formNote" role="status"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Evergreen &amp; Vine</p>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

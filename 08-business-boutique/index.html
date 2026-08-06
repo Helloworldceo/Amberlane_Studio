@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marigold &amp; Co. — Home &amp; Lifestyle Boutique</title>
+<meta name="description" content="Marigold & Co. is a local boutique shop for thoughtfully made home goods and gifts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="announce-bar">Free local delivery on orders over $75 · Now open Sundays</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Marigold &amp; Co.</a>
+    <nav class="nav" id="nav">
+      <a href="#shop">Shop</a>
+      <a href="#about">Our Story</a>
+      <a href="#categories">Categories</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#visit" class="btn btn-primary nav-cta">Visit the shop</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">A Local Home &amp; Lifestyle Shop</p>
+      <h1>Thoughtfully made goods, for everyday living.</h1>
+      <p class="hero-sub">We hand-select ceramics, textiles, and small-batch goods from independent makers — for your home, or for someone you love.</p>
+      <div class="hero-actions">
+        <a href="#shop" class="btn btn-primary">Shop the collection</a>
+        <a href="#visit" class="btn btn-outline">Visit us in-store</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="category-grid">
+        <a href="#shop" class="category-card cat-1"><span>Home Decor</span></a>
+        <a href="#shop" class="category-card cat-2"><span>Ceramics</span></a>
+        <a href="#shop" class="category-card cat-3"><span>Textiles</span></a>
+        <a href="#shop" class="category-card cat-4"><span>Gifts</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="shop">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Shop</span>
+        <h2>Best sellers</h2>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-img p1"><span class="badge">New</span></div>
+          <div class="product-body"><h3>Hand-Thrown Stoneware Mug</h3><span class="product-price">$28</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-img p2"></div>
+          <div class="product-body"><h3>Linen Table Runner</h3><span class="product-price">$42</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-img p3"><span class="badge">Bestseller</span></div>
+          <div class="product-body"><h3>Woven Storage Basket</h3><span class="product-price">$56</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-img p4"></div>
+          <div class="product-body"><h3>Soy Candle, Fig &amp; Cedar</h3><span class="product-price">$24</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-img p5"></div>
+          <div class="product-body"><h3>Ceramic Serving Bowl</h3><span class="product-price">$48</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-img p6"><span class="badge">New</span></div>
+          <div class="product-body"><h3>Wool Throw Blanket</h3><span class="product-price">$85</span></div>
+        </article>
+      </div>
+      <div class="shop-cta"><a href="#" class="btn btn-outline">View full collection</a></div>
+    </div>
+  </section>
+
+  <section class="section section-split" id="about">
+    <div class="split-media"></div>
+    <div class="split-content">
+      <span class="tag">Our Story</span>
+      <h2>Started on a kitchen table.</h2>
+      <p>Marigold &amp; Co. began in 2016 as a small pop-up market stall, selling ceramics made by our founder, Alice, and a handful of friends. A decade later, we're a full storefront working with over 30 independent makers across the country.</p>
+      <p>We still believe in the same thing we did back then: buy less, choose well, and support the people who make things by hand.</p>
+    </div>
+  </section>
+
+  <section class="section" id="visit">
+    <div class="container visit-grid">
+      <div>
+        <span class="tag">Visit Us</span>
+        <h2>Come say hello</h2>
+        <ul class="hours-list">
+          <li><span>Tue – Fri</span><span>10am – 6pm</span></li>
+          <li><span>Saturday</span><span>10am – 5pm</span></li>
+          <li><span>Sunday</span><span>12pm – 4pm</span></li>
+          <li><span>Monday</span><span>Closed</span></li>
+        </ul>
+        <p class="address">128 Maple Avenue, Unit B<br>Ashford, CT 06278</p>
+      </div>
+      <form class="newsletter-form" id="contactForm">
+        <h3>Join our newsletter</h3>
+        <p>New arrivals, maker features, and shop events — no spam, just once or twice a month.</p>
+        <div class="form-row">
+          <input type="email" name="email" placeholder="your@email.com" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </div>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Marigold &amp; Co.</p>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">Pinterest</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

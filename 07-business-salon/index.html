@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Willow &amp; Stone Spa</title>
+<meta name="description" content="Willow & Stone is a boutique day spa offering massage, skincare, and wellness treatments.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Willow &amp; Stone</a>
+    <nav class="nav" id="nav">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Book now</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Boutique Day Spa</p>
+      <h1>Slow down. Breathe. Restore.</h1>
+      <p class="hero-sub">Willow &amp; Stone is a quiet retreat for massage, skincare, and wellness — designed to help you feel like yourself again.</p>
+      <a href="#contact" class="btn btn-primary">Book your visit</a>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Services</span>
+        <h2>Treatments &amp; therapies</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Massage Therapy</h3>
+          <p>Swedish, deep tissue, and hot stone massage tailored to your body's needs.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Facials &amp; Skincare</h3>
+          <p>Custom facials using organic, results-driven skincare formulations.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Body Treatments</h3>
+          <p>Detoxifying wraps, scrubs, and rituals designed to soften and renew.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Wellness Rituals</h3>
+          <p>Half-day and full-day packages combining multiple treatments and quiet time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-split" id="about">
+    <div class="split-media"></div>
+    <div class="split-content">
+      <span class="tag">About Us</span>
+      <h2>A space built for stillness.</h2>
+      <p>Willow &amp; Stone opened in 2018 with a simple idea: wellness shouldn't feel rushed. Every room is designed for quiet, every treatment paced to let you actually unwind.</p>
+      <p>Our therapists are licensed professionals with an average of 10+ years of experience, trained in both classic and modern techniques.</p>
+      <div class="badge-row">
+        <span>Licensed &amp; Insured</span>
+        <span>Organic Products</span>
+        <span>Est. 2018</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Pricing</span>
+        <h2>Simple, transparent rates</h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Swedish Massage</h3>
+          <div class="price-row"><span>50 min</span><strong>$95</strong></div>
+          <div class="price-row"><span>80 min</span><strong>$135</strong></div>
+        </div>
+        <div class="price-card featured">
+          <span class="price-badge">Most Popular</span>
+          <h3>Signature Facial</h3>
+          <div class="price-row"><span>60 min</span><strong>$120</strong></div>
+          <div class="price-row"><span>90 min</span><strong>$165</strong></div>
+        </div>
+        <div class="price-card">
+          <h3>Hot Stone Ritual</h3>
+          <div class="price-row"><span>75 min</span><strong>$150</strong></div>
+          <div class="price-row"><span>Half-day package</span><strong>$310</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Reviews</span>
+        <h2>What our guests say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"The most relaxing hour of my month, every time. The staff genuinely care about your experience."</p>
+          <cite>Renee T.</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Beautiful space, incredibly skilled therapists. I've never left disappointed."</p>
+          <cite>Michael B.</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"My go-to for facials. My skin has never looked better."</p>
+          <cite>Priya S.</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-section" id="contact">
+    <div class="container cta-inner">
+      <h2>Ready to unwind?</h2>
+      <p>Book online or give us a call — we'll find the right treatment for you.</p>
+      <form class="booking-form" id="contactForm">
+        <input type="text" name="name" placeholder="Full name" required>
+        <input type="tel" name="phone" placeholder="Phone number" required>
+        <select name="service">
+          <option>Massage Therapy</option>
+          <option>Facials &amp; Skincare</option>
+          <option>Body Treatments</option>
+          <option>Wellness Ritual</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Request appointment</button>
+      </form>
+      <p class="form-note" id="formNote" role="status"></p>
+      <p class="contact-alt">Or call us at <a href="tel:+15558914200">(555) 891-4200</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Willow &amp; Stone Spa</p>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

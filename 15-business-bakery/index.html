@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Little Wren Bakery &amp; Coffee</title>
+<meta name="description" content="Little Wren is a neighborhood bakery and coffee shop serving fresh pastries and specialty coffee daily.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">🐦 Little Wren</a>
+    <nav class="nav" id="nav">
+      <a href="#menu">Menu</a>
+      <a href="#about">Our Story</a>
+      <a href="#catering">Catering</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#visit" class="btn btn-primary nav-cta">Order ahead</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Fresh Daily · Locally Roasted Coffee</p>
+      <h1>Warm pastries, better mornings.</h1>
+      <p class="hero-sub">Little Wren bakes everything from scratch each morning — sourdough, laminated pastries, and coffee roasted just up the road.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See our menu</a>
+        <a href="#visit" class="btn btn-outline">Visit us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-strip">
+    <div class="container info-strip-inner">
+      <div><strong>Open Daily</strong><span>7:00 AM – 3:00 PM</span></div>
+      <div><strong>Order Ahead</strong><span>(555) 442-8890</span></div>
+      <div><strong>Location</strong><span>18 Oak Street</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section-head">
+        <span class="tag">Menu</span>
+        <h2>What's fresh today</h2>
+      </div>
+      <div class="menu-tabs">
+        <div class="menu-category">
+          <h3>Pastries</h3>
+          <div class="menu-item"><span>Almond Croissant</span><span class="price">$5.50</span></div>
+          <div class="menu-item"><span>Cinnamon Morning Bun</span><span class="price">$4.75</span></div>
+          <div class="menu-item"><span>Sourdough Loaf</span><span class="price">$8.00</span></div>
+          <div class="menu-item"><span>Seasonal Fruit Tart</span><span class="price">$6.25</span></div>
+        </div>
+        <div class="menu-category">
+          <h3>Coffee &amp; Drinks</h3>
+          <div class="menu-item"><span>Drip Coffee</span><span class="price">$3.25</span></div>
+          <div class="menu-item"><span>Oat Milk Latte</span><span class="price">$5.00</span></div>
+          <div class="menu-item"><span>Matcha Latte</span><span class="price">$5.25</span></div>
+          <div class="menu-item"><span>Cold Brew</span><span class="price">$4.50</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-split" id="about">
+    <div class="split-media"></div>
+    <div class="split-content">
+      <span class="tag">Our Story</span>
+      <h2>Baked before sunrise, every day.</h2>
+      <p>Little Wren started in 2019 when Mei, a former pastry chef, began selling croissants out of a farmers market tent. Three years later, we opened our storefront on Oak Street — same recipes, same 4am starts.</p>
+      <p>We bake in small batches, source our flour from a mill two hours away, and pull our espresso from beans roasted a mile from our door.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="catering">
+    <div class="container catering-grid">
+      <div>
+        <span class="tag">Catering</span>
+        <h2>Pastry boxes for any occasion</h2>
+        <p class="catering-sub">Office mornings, showers, weddings — we build custom pastry and coffee spreads for groups of any size. 48 hours notice appreciated.</p>
+        <a href="#visit" class="btn btn-primary">Request a quote</a>
+      </div>
+      <div class="catering-cards">
+        <div class="catering-card"><h3>Pastry Box</h3><span>Serves 6–8 · from $38</span></div>
+        <div class="catering-card"><h3>Coffee Box</h3><span>Serves 8–10 · from $32</span></div>
+        <div class="catering-card"><h3>Full Spread</h3><span>Serves 15+ · custom pricing</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-section" id="visit">
+    <div class="container cta-inner">
+      <h2>Stop by, or order ahead</h2>
+      <p>Skip the line — order for pickup and we'll have it ready.</p>
+      <form class="order-form" id="contactForm">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="tel" name="phone" placeholder="Phone number" required>
+        <select name="pickup">
+          <option>Pickup in 15 minutes</option>
+          <option>Pickup in 30 minutes</option>
+          <option>Pickup in 1 hour</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Place order</button>
+      </form>
+      <p class="form-note" id="formNote" role="status"></p>
+      <p class="address">18 Oak Street, Riverbend · Open daily 7am–3pm</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Little Wren Bakery &amp; Coffee</p>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
