@@ -128,6 +128,16 @@ ul{ list-style: none; }
 .process-card p{ font-size: 0.9rem; color: var(--text-dim); }
 
 /* Template grid */
+.search-bar{ position: relative; max-width: 480px; margin: 0 auto 40px; }
+.search-bar svg{ position: absolute; left: 20px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--text-dim); pointer-events: none; }
+.search-bar input{ width: 100%; font-family: var(--font-sans); font-size: 0.95rem; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 13px 46px; transition: border-color .2s, box-shadow .2s; }
+.search-bar input::placeholder{ color: var(--text-dim); }
+.search-bar input:focus{ outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(54,81,230,0.12); }
+.search-clear{ position: absolute; right: 10px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; border-radius: 50%; border: none; background: var(--bg-alt); color: var(--text-dim); font-size: 1rem; line-height: 1; cursor: pointer; transition: background .2s, color .2s; }
+.search-clear:hover{ background: var(--border); color: var(--text); }
+.search-status{ text-align: center; font-size: 0.85rem; color: var(--text-dim); margin: -18px 0 32px; }
+.card.is-hidden, .grid.is-hidden, .group-title.is-hidden{ display: none; }
+
 .group-title{ font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-dim); margin: 48px 0 22px; }
 .group-title:first-of-type{ margin-top: 0; }
 .grid{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }

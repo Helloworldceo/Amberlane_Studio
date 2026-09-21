@@ -53,6 +53,52 @@ if (contactForm) {
   });
 }
 
+// Template search
+const templateSearch = document.getElementById('templateSearch');
+const searchClear = document.getElementById('searchClear');
+const searchStatus = document.getElementById('searchStatus');
+
+function filterTemplates(rawQuery) {
+  const query = rawQuery.trim().toLowerCase();
+  if (searchClear) searchClear.hidden = query.length === 0;
+
+  let totalVisible = 0;
+  document.querySelectorAll('#templates .grid').forEach((grid) => {
+    let groupVisible = 0;
+    grid.querySelectorAll('.card').forEach((card) => {
+      const match = query === '' || card.textContent.toLowerCase().includes(query);
+      card.classList.toggle('is-hidden', !match);
+      if (match) { groupVisible += 1; totalVisible += 1; }
+    });
+    grid.classList.toggle('is-hidden', groupVisible === 0);
+    const heading = grid.previousElementSibling;
+    if (heading && heading.classList.contains('group-title')) {
+      heading.classList.toggle('is-hidden', groupVisible === 0);
+    }
+  });
+
+  if (!searchStatus) return;
+  if (query === '') {
+    searchStatus.hidden = true;
+  } else {
+    searchStatus.hidden = false;
+    searchStatus.textContent = totalVisible === 0
+      ? `No templates match "${rawQuery.trim()}".`
+      : `${totalVisible} template${totalVisible === 1 ? '' : 's'} match "${rawQuery.trim()}".`;
+  }
+}
+
+if (templateSearch) {
+  templateSearch.addEventListener('input', (e) => filterTemplates(e.target.value));
+}
+if (searchClear) {
+  searchClear.addEventListener('click', () => {
+    templateSearch.value = '';
+    filterTemplates('');
+    templateSearch.focus();
+  });
+}
+
 // Reveal-on-scroll
 const revealTargets = document.querySelectorAll('.process-card, .card, .plan-card');
 if ('IntersectionObserver' in window && revealTargets.length) {
