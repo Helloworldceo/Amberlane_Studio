@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eleanor Voss — Novelist</title>
+<meta name="description" content="Eleanor Voss, novelist — books, events, and press.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&family=Literata:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Eleanor Voss</a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#books">Books</a>
+      <a href="#press">Press</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline nav-cta">Media &amp; rights</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Novelist</p>
+      <h1>Stories about the people history forgot to mention.</h1>
+      <p class="hero-sub">I write literary fiction set at the edges of big historical moments — the translator, the assistant, the one who kept the records. My third novel, <em>The Quiet Register</em>, is out now.</p>
+      <div class="hero-actions">
+        <a href="#books" class="btn btn-primary">See the books</a>
+        <a href="#contact" class="btn btn-ghost">Press &amp; rights inquiries →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-photo"></div>
+      <div>
+        <span class="tag">About</span>
+        <h2 class="section-title">Twelve years, three novels, one obsession.</h2>
+        <p>I spent a decade as an archivist before writing my first novel — a habit that hasn't left my fiction since. Each of my books starts with a real, minor historical figure and asks what their interior life might have been.</p>
+        <p>I live outside Edinburgh, where I'm at work on a fourth novel set during the 1918 Spanish flu.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="books">
+    <div class="container">
+      <span class="tag">Books</span>
+      <h2 class="section-title">Bibliography</h2>
+      <div class="books-grid">
+        <article class="book-card">
+          <div class="book-cover bc-1"></div>
+          <div class="book-info"><span class="book-year">2026</span><h3>The Quiet Register</h3><p>A ledger-keeper in occupied Antwerp discovers her records are being used for something she can't undo.</p></div>
+        </article>
+        <article class="book-card">
+          <div class="book-cover bc-2"></div>
+          <div class="book-info"><span class="book-year">2023</span><h3>The Cartographer's Daughter</h3><p>Longlisted, National Book Award. A mapmaker's daughter redraws the borders her father got wrong.</p></div>
+        </article>
+        <article class="book-card">
+          <div class="book-cover bc-3"></div>
+          <div class="book-info"><span class="book-year">2020</span><h3>What the Translator Knew</h3><p>Debut novel. A court translator in 1946 carries the weight of every word she's asked to soften.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="press">
+    <div class="container">
+      <span class="tag">Press</span>
+      <h2 class="section-title">What critics are saying</h2>
+      <blockquote class="press-quote">"Voss writes silence better than almost anyone working today — what's left unsaid carries as much weight as the prose itself." <cite>— The Guardian</cite></blockquote>
+      <div class="press-row">
+        <span>The New York Times</span><span>The Guardian</span><span>Kirkus Reviews</span><span>Literary Hub</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="events">
+    <div class="container">
+      <span class="tag">Events</span>
+      <h2 class="section-title">Upcoming appearances</h2>
+      <div class="events-list">
+        <div class="event-row"><span class="event-date">Oct 14</span><div><h3>Edinburgh International Book Festival</h3><p>In conversation, 7:00pm</p></div></div>
+        <div class="event-row"><span class="event-date">Nov 02</span><div><h3>Waterstones Piccadilly</h3><p>Reading &amp; signing, 6:30pm</p></div></div>
+        <div class="event-row"><span class="event-date">Nov 20</span><div><h3>Toronto International Festival of Authors</h3><p>Panel discussion, 4:00pm</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Contact</span>
+        <h2 class="section-title">Media &amp; rights</h2>
+        <p class="contact-sub">For interviews, foreign rights, or event bookings — my agent handles all inquiries.</p>
+        <div class="contact-links">
+          <a href="mailto:agent@voss-literary.example">agent@voss-literary.example</a>
+          <a href="#">Newsletter</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Inquiry <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Eleanor Voss.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Élan Rousseau — Fashion Designer</title>
+<meta name="description" content="Portfolio of Élan Rousseau, a fashion designer working in ready-to-wear and made-to-order.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600;6..96,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">ÉLAN ROUSSEAU</a>
+    <nav class="nav" id="nav">
+      <a href="#about">Studio</a>
+      <a href="#collections">Collections</a>
+      <a href="#press">Press</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline nav-cta">Stockist inquiries</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <p class="eyebrow">Ready-to-Wear · Made-to-Order · Paris</p>
+      <h1>Cut for movement.<br>Made to last.</h1>
+      <p class="hero-sub">Élan Rousseau is a small atelier designing considered, seasonless clothing — built from natural fibers, cut for how bodies actually move.</p>
+      <div class="hero-actions">
+        <a href="#collections" class="btn btn-primary">View collections</a>
+        <a href="#contact" class="btn btn-ghost">Stockist inquiries →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-photo"></div>
+      <div>
+        <span class="tag">The Atelier</span>
+        <h2 class="section-title">Slow, considered, made to be worn.</h2>
+        <p>Founded in 2018, the atelier produces two collections a year in small runs — no more than 200 pieces per style. Every garment is cut and finished in-house, from natural and deadstock fabric sourced within Europe.</p>
+        <p>The work is quiet by design: fewer pieces, worn longer, cut well enough that trends don't matter.</p>
+        <div class="about-facts">
+          <div><span class="k">Founded</span><span class="v">2018, Paris</span></div>
+          <div><span class="k">Production</span><span class="v">Small-run, in-house atelier</span></div>
+          <div><span class="k">Materials</span><span class="v">Natural fiber &amp; deadstock textiles</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="collections">
+    <div class="container">
+      <span class="tag">Collections</span>
+      <h2 class="section-title">Recent seasons</h2>
+      <div class="collections-grid">
+        <article class="collection-card cc-1">
+          <div class="cc-info"><span class="cc-season">SS26</span><h3>Low Tide</h3></div>
+        </article>
+        <article class="collection-card cc-2">
+          <div class="cc-info"><span class="cc-season">FW25</span><h3>Quiet Hours</h3></div>
+        </article>
+        <article class="collection-card cc-3">
+          <div class="cc-info"><span class="cc-season">SS25</span><h3>Field Notes</h3></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="press">
+    <div class="container">
+      <span class="tag">Press</span>
+      <h2 class="section-title">As featured in</h2>
+      <div class="press-row">
+        <span>Vogue Paris</span><span>Business of Fashion</span><span>AnOther</span><span>i-D</span><span>Dazed</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Contact</span>
+        <h2 class="section-title">Stockists &amp; press</h2>
+        <p class="contact-sub">For wholesale inquiries, press samples, or collaboration proposals.</p>
+        <div class="contact-links">
+          <a href="mailto:studio@elanrousseau.example">studio@elanrousseau.example</a>
+          <a href="#">Instagram</a>
+          <a href="#">Lookbook (PDF)</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Inquiry <textarea name="message" rows="4" required placeholder="Stockist, press, or collaboration"></textarea></label>
+        <button type="submit" class="btn btn-primary">Send inquiry</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Élan Rousseau.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

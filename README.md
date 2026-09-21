@@ -1,13 +1,13 @@
 # Amberlane Studio
 
-A collection of 30 professionally designed website templates — for personal portfolios, small businesses, and products — plus a marketing showcase site where visitors can browse live examples and request a custom build.
+A collection of 36 professionally designed website templates — for personal portfolios, small businesses, and products — plus a marketing showcase site where visitors can browse live examples and request a custom build.
 
 Every template is plain **HTML, CSS, and JavaScript**. No build tools, no frameworks, no dependencies. Open any `index.html` directly in a browser, or serve the folder with any static file server.
 
 ## What's in this repo
 
-- **`index.html` / `style.css` / `script.js`** (root) — the Amberlane Studio marketing site: hero, how-it-works, a browsable grid of all 30 templates, pricing, FAQ, and a "request a build" contact form.
-- **30 template folders** — each is a fully self-contained website (`index.html`, `style.css`, `script.js`, and an `assets/` folder where relevant).
+- **`index.html` / `style.css` / `script.js`** (root) — the Amberlane Studio marketing site: hero, how-it-works, a browsable (and searchable) grid of all 36 templates, pricing, FAQ, and a "request a build" contact form.
+- **36 template folders** — each is a fully self-contained website (`index.html`, `style.css`, `script.js`, and an `assets/` folder where relevant).
 
 ## Templates
 
@@ -27,6 +27,12 @@ Every template is plain **HTML, CSS, and JavaScript**. No build tools, no framew
 | `22-portfolio-filmmaker` | Cinematic dark layout with a showreel player and tagged project grid |
 | `23-portfolio-researcher` | Academic layout with a publications list, research areas, and teaching &amp; talks |
 | `24-portfolio-podcaster` | Waveform hero, episode list with play buttons, and a guest-booking form |
+| `31-portfolio-fashiondesigner` | Full-bleed lookbook hero, seasonal collections grid, and press wall for atelier labels |
+| `32-portfolio-uxdesigner` | Case-study-driven layout with problem/approach/outcome framing, process steps, and testimonials |
+| `33-portfolio-chef` | Sample tasting menu, chef bio, press wall, and an event-booking form for private chefs |
+| `34-portfolio-author` | Bibliography grid, press quotes, and an events calendar for novelists and authors |
+| `35-portfolio-makeupartist` | Filterable look gallery (bridal/editorial/SFX), service rates, and a booking form |
+| `36-portfolio-speaker` | Signature-talks grid, past-events logo wall, and testimonials for professional speakers |
 
 ### Small Business Sites
 

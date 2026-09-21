@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sasha Kim — Makeup Artist</title>
+<meta name="description" content="Sasha Kim, makeup artist — bridal, editorial, and special effects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Sasha Kim</a>
+    <nav class="nav" id="nav">
+      <a href="#gallery">Gallery</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Book</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Book now</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Makeup Artist · Bridal · Editorial · SFX</p>
+      <h1>Makeup that looks like <em>you</em>, only more.</h1>
+      <p class="hero-sub">I've done faces for weddings, fashion editorials, and the occasional zombie photoshoot — always working with your features, never against them.</p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">See the gallery</a>
+        <a href="#contact" class="btn btn-outline">Book a session →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="container">
+      <span class="tag">Gallery</span>
+      <h2 class="section-title">Recent looks</h2>
+      <div class="filter-row">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="bridal">Bridal</button>
+        <button class="filter-btn" data-filter="editorial">Editorial</button>
+        <button class="filter-btn" data-filter="sfx">SFX</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="g-item g1" data-cat="bridal"><span>Bridal</span></div>
+        <div class="g-item g2" data-cat="editorial"><span>Editorial</span></div>
+        <div class="g-item g3" data-cat="sfx"><span>SFX</span></div>
+        <div class="g-item g4" data-cat="bridal"><span>Bridal</span></div>
+        <div class="g-item g5" data-cat="editorial"><span>Editorial</span></div>
+        <div class="g-item g6" data-cat="bridal"><span>Bridal</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <span class="tag">Services</span>
+      <h2 class="section-title">Rates</h2>
+      <div class="rates-list">
+        <div class="rate-row"><h3>Bridal — Day Of</h3><span class="price">$350</span></div>
+        <div class="rate-row"><h3>Bridal Trial</h3><span class="price">$150</span></div>
+        <div class="rate-row"><h3>Editorial / Photoshoot</h3><span class="price">$250</span></div>
+        <div class="rate-row"><h3>Special Occasion</h3><span class="price">$120</span></div>
+        <div class="rate-row"><h3>SFX / Creative</h3><span class="price">From $200</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews">
+    <div class="container">
+      <span class="tag">Reviews</span>
+      <h2 class="section-title">What clients say</h2>
+      <div class="reviews-grid">
+        <blockquote>"Sasha made me feel like myself, just glowier. Still got compliments a month later." <cite>— Mei L., Bride</cite></blockquote>
+        <blockquote>"Booked her for a shoot with almost no direction and she nailed the mood on the first look." <cite>— Dana R., Photographer</cite></blockquote>
+        <blockquote>"The SFX work for our short film was better than anything our budget should've gotten us." <cite>— Theo M., Filmmaker</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Book</span>
+        <h2 class="section-title">Let's book your date</h2>
+        <p class="contact-sub">Tell me the occasion and date — I'll confirm availability within a day.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@sashakimmakeup.example">hello@sashakimmakeup.example</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Occasion &amp; date <input type="text" name="details" placeholder="e.g. Wedding, June 6"></label>
+        <button type="submit" class="btn btn-primary">Check availability</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Sasha Kim.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

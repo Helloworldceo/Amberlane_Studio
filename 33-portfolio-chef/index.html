@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marcus Webb — Private Chef</title>
+<meta name="description" content="Marcus Webb, private chef — seasonal tasting menus and private events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Marcus Webb</a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#menu">Tasting Menu</a>
+      <a href="#press">Press</a>
+      <a href="#contact">Book</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Book an event</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Private Chef · Seasonal &amp; Farm-Direct</p>
+      <h1>Dinner, cooked in your kitchen.</h1>
+      <p class="hero-sub">I design and cook seasonal tasting menus for private dinners, small celebrations, and intimate events — sourced from farmers I've worked with for a decade.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See a sample menu</a>
+        <a href="#contact" class="btn btn-ghost">Book an event →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-photo"></div>
+      <div>
+        <span class="tag">About</span>
+        <h2 class="section-title">Ten years of restaurant kitchens, now yours.</h2>
+        <p>I spent a decade cooking in restaurant kitchens — the last four as sous chef at a one-Michelin-star kitchen — before deciding I wanted to cook for smaller rooms, where I could actually talk to the people eating.</p>
+        <p>Every menu is built around what's in season that week and adjusted for your kitchen, your guests, and any dietary needs.</p>
+        <div class="about-facts">
+          <div><span class="k">Based in</span><span class="v">Hudson Valley, NY</span></div>
+          <div><span class="k">Style</span><span class="v">Seasonal, farm-direct, market-driven</span></div>
+          <div><span class="k">Party size</span><span class="v">2 – 24 guests</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="menu">
+    <div class="container">
+      <span class="tag">Sample Tasting Menu</span>
+      <h2 class="section-title">This week, from the market</h2>
+      <div class="menu-list">
+        <div class="menu-course"><span class="course-num">I</span><div><h3>Charred sweet corn, brown butter, chili oil</h3><p>Amuse-bouche</p></div></div>
+        <div class="menu-course"><span class="course-num">II</span><div><h3>Heirloom tomato, stone fruit, burrata, basil oil</h3><p>First course</p></div></div>
+        <div class="menu-course"><span class="course-num">III</span><div><h3>Pan-seared duck breast, cherry gastrique, farro</h3><p>Main course</p></div></div>
+        <div class="menu-course"><span class="course-num">IV</span><div><h3>Brown butter peach galette, vanilla bean ice cream</h3><p>Dessert</p></div></div>
+      </div>
+      <p class="menu-note">Menus are rebuilt weekly around what's fresh — the above is a representative example, not a fixed menu.</p>
+    </div>
+  </section>
+
+  <section class="section" id="press">
+    <div class="container">
+      <span class="tag">Press</span>
+      <h2 class="section-title">As seen in</h2>
+      <div class="press-row">
+        <span>Hudson Valley Magazine</span><span>Edible Hudson Valley</span><span>Eater NY</span><span>The Local Palate</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Book an Event</span>
+        <h2 class="section-title">Let's plan your dinner</h2>
+        <p class="contact-sub">Tell me your date, party size, and any dietary notes — I'll follow up with a custom menu proposal.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@marcuswebbchef.example">hello@marcuswebbchef.example</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Date &amp; party size <input type="text" name="details" placeholder="e.g. Oct 12, 8 guests"></label>
+        <label>Dietary notes <textarea name="message" rows="3"></textarea></label>
+        <button type="submit" class="btn btn-primary">Request a menu</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Marcus Webb.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

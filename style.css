@@ -193,6 +193,12 @@ h1, h2, h3{ text-wrap: balance; }
 .p28{ background: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=500&q=70') center/cover no-repeat; }
 .p29{ background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1519167758481-83f29c1fe8ce?auto=format&fit=crop&w=500&q=70') center/cover no-repeat; }
 .p30{ background: linear-gradient(135deg, #6c5ce7, #37c9e1); }
+.p31{ background: linear-gradient(0deg, rgba(0,0,0,0.15), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=500&q=70') center/cover no-repeat; }
+.p32{ background: linear-gradient(135deg, #6D28D9, #F0E9FE); }
+.p33{ background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=500&q=70') center/cover no-repeat; }
+.p34{ background: linear-gradient(135deg, #7A2131, #2B2216); }
+.p35{ background: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.25)), url('https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=500&q=70') center/cover no-repeat; }
+.p36{ background: linear-gradient(135deg, #12182B, #E85B2C); }
 
 /* Pricing — flat catalog cards, no floating badge glow */
 .pricing-grid{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; align-items: start; }
