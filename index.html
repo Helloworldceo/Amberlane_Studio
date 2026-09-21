@@ -5,9 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Amberlane Studio — Websites for Portfolios &amp; Small Businesses</title>
 <meta name="description" content="Browse professionally designed website templates, then request a custom build for your business or portfolio.">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- Open Graph / social preview — update og:url once deployed to your real domain -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Amberlane Studio — Websites for Portfolios & Small Businesses">
+<meta property="og:description" content="Browse professionally designed website templates, then request a custom build for your business or portfolio.">
+<meta property="og:image" content="og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://amberlanestudio.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Amberlane Studio — Websites for Portfolios & Small Businesses">
+<meta name="twitter:description" content="Browse professionally designed website templates, then request a custom build for your business or portfolio.">
+<meta name="twitter:image" content="og-image.jpg">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script>
+  (function(){
+    var saved = localStorage.getItem('theme');
+    if (saved === 'light' || saved === 'dark') {
+      document.documentElement.setAttribute('data-theme', saved);
+    }
+  })();
+</script>
 </head>
 <body>
 
@@ -20,6 +49,10 @@
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
     </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
     <a href="#contact" class="btn btn-primary nav-cta">Request a build</a>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
   </div>
@@ -41,8 +74,8 @@
         <a href="#contact" class="btn btn-outline btn-lg">Request a build</a>
       </div>
       <div class="hero-stats">
+        <div><strong>30</strong><span>Templates</span></div>
         <div><strong>Live</strong><span>Not mockups</span></div>
-        <div><strong>2</strong><span>Categories</span></div>
         <div><strong>100%</strong><span>Free to preview</span></div>
       </div>
     </div>
@@ -163,6 +196,61 @@
             <div class="card-actions">
               <a href="19-portfolio-resume/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
               <button class="card-request" data-template="Resume / CV Portfolio">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p20" href="20-portfolio-architect/index.html" target="_blank" rel="noopener"><span>Refined · Editorial</span></a>
+          <div class="card-body">
+            <h3>Architect / Interior Designer</h3>
+            <p>Material-led project grid with location and year, built for architecture and interior design studios.</p>
+            <div class="card-actions">
+              <a href="20-portfolio-architect/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Architect / Interior Designer Portfolio">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p21" href="21-portfolio-illustrator/index.html" target="_blank" rel="noopener"><span>Playful · Colorful</span></a>
+          <div class="card-body">
+            <h3>Illustrator / Artist</h3>
+            <p>Bright, organic-shaped gallery layout with a client wall and a small-shop section for prints.</p>
+            <div class="card-actions">
+              <a href="21-portfolio-illustrator/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Illustrator / Artist Portfolio">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p22" href="22-portfolio-filmmaker/index.html" target="_blank" rel="noopener"><span>Cinematic · Dark</span></a>
+          <div class="card-body">
+            <h3>Filmmaker / Video Editor</h3>
+            <p>Full-bleed cinematic layout with a showreel player and tagged project grid.</p>
+            <div class="card-actions">
+              <a href="22-portfolio-filmmaker/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Filmmaker / Video Editor Portfolio">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p23" href="23-portfolio-researcher/index.html" target="_blank" rel="noopener"><span>Academic · Serif</span></a>
+          <div class="card-body">
+            <h3>Researcher / Data Scientist</h3>
+            <p>Publications list, research areas, and teaching &amp; talks layout for academics and scientists.</p>
+            <div class="card-actions">
+              <a href="23-portfolio-researcher/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Researcher / Data Scientist Portfolio">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p24" href="24-portfolio-podcaster/index.html" target="_blank" rel="noopener"><span>Audio · Bold</span></a>
+          <div class="card-body">
+            <h3>Podcaster / Show Host</h3>
+            <p>Waveform hero, episode list with inline play buttons, and a guest-booking contact form.</p>
+            <div class="card-actions">
+              <a href="24-portfolio-podcaster/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Podcaster / Show Host Portfolio">Request this style</button>
             </div>
           </div>
         </article>
@@ -291,6 +379,61 @@
             </div>
           </div>
         </article>
+        <article class="card">
+          <a class="card-preview p25" href="25-business-cafe/index.html" target="_blank" rel="noopener"><span>Warm · Roastery</span></a>
+          <div class="card-body">
+            <h3>Coffee Shop</h3>
+            <p>Menu with pricing, story section, hours &amp; location, and an order-ahead form.</p>
+            <div class="card-actions">
+              <a href="25-business-cafe/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Coffee Shop">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p26" href="26-business-yogastudio/index.html" target="_blank" rel="noopener"><span>Calm · Sage</span></a>
+          <div class="card-body">
+            <h3>Yoga / Wellness Studio</h3>
+            <p>Class types, weekly schedule table, instructor bios, and membership pricing.</p>
+            <div class="card-actions">
+              <a href="26-business-yogastudio/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Yoga / Wellness Studio">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p27" href="27-business-autorepair/index.html" target="_blank" rel="noopener"><span>Industrial · Bold</span></a>
+          <div class="card-body">
+            <h3>Auto Repair Shop</h3>
+            <p>Services grid, trust badges, service area, and a free-quote request form.</p>
+            <div class="card-actions">
+              <a href="27-business-autorepair/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Auto Repair Shop">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p28" href="28-business-nonprofit/index.html" target="_blank" rel="noopener"><span>Hopeful · Warm</span></a>
+          <div class="card-body">
+            <h3>Non-profit / Charity</h3>
+            <p>Mission section, program cards, honest impact numbers, and a recurring-donation band.</p>
+            <div class="card-actions">
+              <a href="28-business-nonprofit/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Non-profit / Charity">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p29" href="29-business-eventvenue/index.html" target="_blank" rel="noopener"><span>Luxe · Black &amp; Gold</span></a>
+          <div class="card-body">
+            <h3>Event Venue</h3>
+            <p>Gallery, space specs, all-inclusive package pricing, and a date-availability inquiry form.</p>
+            <div class="card-actions">
+              <a href="29-business-eventvenue/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Event Venue">Request this style</button>
+            </div>
+          </div>
+        </article>
       </div>
 
       <p class="group-title">Product &amp; SaaS</p>
@@ -303,6 +446,17 @@
             <div class="card-actions">
               <a href="17-product-saas/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
               <button class="card-request" data-template="SaaS / Startup Landing Page">Request this style</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <a class="card-preview p30" href="30-product-mobileapp/index.html" target="_blank" rel="noopener"><span>App · Gradient</span></a>
+          <div class="card-body">
+            <h3>Mobile App Landing Page</h3>
+            <p>CSS phone mockup, feature grid, how-it-works steps, reviews, and app-store badges.</p>
+            <div class="card-actions">
+              <a href="30-product-mobileapp/index.html" target="_blank" rel="noopener" class="card-link">View example →</a>
+              <button class="card-request" data-template="Mobile App Landing Page">Request this style</button>
             </div>
           </div>
         </article>
@@ -396,9 +550,8 @@
         <h2>Request your build</h2>
         <p class="contact-sub">Tell us a bit about your business and which template caught your eye. We'll follow up within one business day.</p>
         <div class="contact-links">
-          <a href="mailto:hello@amberlanestudio.com">hello@amberlanestudio.com</a>
-          <a href="#">Instagram</a>
-          <a href="#">LinkedIn</a>
+          <a href="mailto:helloamberlanestudio@gmail.com">helloamberlanestudio@gmail.com</a>
+          <a href="https://instagram.com/amberlane_st" target="_blank" rel="noopener">Instagram</a>
         </div>
       </div>
       <form class="contact-form" id="contactForm">

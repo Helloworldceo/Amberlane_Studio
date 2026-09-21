@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juno Park — Illustrator</title>
+<meta name="description" content="Portfolio of Juno Park, a freelance illustrator making playful, colorful work for brands and publishers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">juno <span>◕</span></a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#clients">Clients</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Hire me</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">👋 Hi, I'm Juno</p>
+      <h1>I draw <span class="wiggle">weird, warm,</span> colorful things.</h1>
+      <p class="hero-sub">Freelance illustrator making editorial art, character work, and brand illustration for publishers, startups, and the occasional cereal box.</p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">See the gallery</a>
+        <a href="#contact" class="btn btn-ghost">Say hi →</a>
+      </div>
+    </div>
+    <div class="hero-blobs" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-photo"></div>
+      <div class="about-card">
+        <span class="tag">About</span>
+        <h2>Digital brush, analog brain.</h2>
+        <p>I've been drawing professionally for 8 years — first as an animator, now as a full-time illustrator. My work leans bright, a little chaotic, and always a little funny. I love drawing food, creatures, and people mid-laugh.</p>
+        <p>When a brief says "make it feel human," that's usually when I do my best work.</p>
+        <div class="about-facts">
+          <div><span class="k">Based in</span><span class="v">Seoul, South Korea</span></div>
+          <div><span class="k">Tools</span><span class="v">Procreate · Photoshop · pencil &amp; paper</span></div>
+          <div><span class="k">Available for</span><span class="v">Editorial, branding, book covers</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <span class="tag">Gallery</span>
+      <h2 class="section-title">Some recent favorites</h2>
+      <div class="gallery-grid">
+        <div class="g-item g1 tall"></div>
+        <div class="g-item g2"></div>
+        <div class="g-item g3"></div>
+        <div class="g-item g4"></div>
+        <div class="g-item g5 tall"></div>
+        <div class="g-item g6"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="clients">
+    <div class="container">
+      <span class="tag">Clients</span>
+      <h2 class="section-title">People I've drawn for</h2>
+      <div class="clients-row">
+        <span>Noodle&amp;Co</span><span>Penguin Kids</span><span>Bramble Games</span><span>Sunbeam Cereal</span><span>Little Press</span><span>Hoot Studio</span>
+      </div>
+      <blockquote class="testimonial">
+        "Juno turned a vague, two-line brief into exactly the character our whole brand ended up built around."
+        <cite>— Art Director, Bramble Games</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="shop">
+    <div class="container shop-band">
+      <div>
+        <span class="tag">Shop</span>
+        <h2 class="section-title">Prints &amp; stickers</h2>
+        <p>A small shop of signed prints, sticker packs, and the occasional zine — mostly the weird characters that don't fit anywhere else.</p>
+      </div>
+      <a href="#" class="btn btn-primary">Visit the shop →</a>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Contact</span>
+        <h2 class="section-title">Got a project?</h2>
+        <p class="contact-sub">Tell me what you're making and roughly when you need it. I take on a handful of commissions each month.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@junopark.example">hello@junopark.example</a>
+          <a href="#">Instagram</a>
+          <a href="#">Behance</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>What are you making? <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send it over</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Juno Park.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,13 +1,13 @@
 # Amberlane Studio
 
-A collection of 19 professionally designed website templates — for personal portfolios and small businesses — plus a marketing showcase site where visitors can browse live examples and request a custom build.
+A collection of 30 professionally designed website templates — for personal portfolios, small businesses, and products — plus a marketing showcase site where visitors can browse live examples and request a custom build.
 
 Every template is plain **HTML, CSS, and JavaScript**. No build tools, no frameworks, no dependencies. Open any `index.html` directly in a browser, or serve the folder with any static file server.
 
 ## What's in this repo
 
-- **`index.html` / `style.css` / `script.js`** (root) — the Amberlane Studio marketing site: hero, how-it-works, a browsable grid of all 19 templates, pricing, FAQ, and a "request a build" contact form.
-- **19 template folders** — each is a fully self-contained website (`index.html`, `style.css`, `script.js`, and an `assets/` folder where relevant).
+- **`index.html` / `style.css` / `script.js`** (root) — the Amberlane Studio marketing site: hero, how-it-works, a browsable grid of all 30 templates, pricing, FAQ, and a "request a build" contact form.
+- **30 template folders** — each is a fully self-contained website (`index.html`, `style.css`, `script.js`, and an `assets/` folder where relevant).
 
 ## Templates
 
@@ -22,6 +22,11 @@ Every template is plain **HTML, CSS, and JavaScript**. No build tools, no framew
 | `05-portfolio-consultant` | Trust-building layout with results, testimonials, and booking CTA |
 | `11-portfolio-musician` | Moody, bold layout for album releases, tour dates, and merch |
 | `19-portfolio-resume` | Personal CV/resume site with a viewable, downloadable CV |
+| `20-portfolio-architect` | Material-led layout with a project grid (location, year) for architects and interior designers |
+| `21-portfolio-illustrator` | Bright, organic-shaped gallery for illustrators and artists, with a client wall and a small print shop |
+| `22-portfolio-filmmaker` | Cinematic dark layout with a showreel player and tagged project grid |
+| `23-portfolio-researcher` | Academic layout with a publications list, research areas, and teaching &amp; talks |
+| `24-portfolio-podcaster` | Waveform hero, episode list with play buttons, and a guest-booking form |
 
 ### Small Business Sites
 
@@ -38,12 +43,18 @@ Every template is plain **HTML, CSS, and JavaScript**. No build tools, no framew
 | `15-business-bakery` | Warm, product-forward menu and order-ahead form |
 | `16-business-contractor` | Trust badges, service area, and free-quote form |
 | `18-business-medicalequipment` | Product catalog, insurance info, and rent-or-buy quote form |
+| `25-business-cafe` | Menu with pricing, founder story, hours &amp; location, and an order-ahead form |
+| `26-business-yogastudio` | Class types, weekly schedule table, instructor bios, and membership pricing |
+| `27-business-autorepair` | Services grid, trust badges, service area, and a free-quote form |
+| `28-business-nonprofit` | Mission section, program cards, honest impact numbers, and a donation band |
+| `29-business-eventvenue` | Gallery, space specs, package pricing, and a date-availability inquiry form |
 
 ### Product & SaaS
 
 | Folder | Style |
 |---|---|
 | `17-product-saas` | Feature grid, pricing tiers, and FAQ for software products |
+| `30-product-mobileapp` | CSS phone mockup, feature grid, how-it-works steps, reviews, and app-store badges |
 
 ## Running locally
 

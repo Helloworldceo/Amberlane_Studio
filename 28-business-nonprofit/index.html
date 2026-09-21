@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bright Path Foundation</title>
+<meta name="description" content="Bright Path Foundation — non-profit expanding access to early childhood education.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Bright Path</a>
+    <nav class="nav" id="nav">
+      <a href="#mission">Mission</a>
+      <a href="#programs">Programs</a>
+      <a href="#impact">Impact</a>
+      <a href="#contact">Volunteer</a>
+    </nav>
+    <a href="#donate" class="btn btn-primary nav-cta">Donate</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Bright Path Foundation</p>
+      <h1>Every child deserves a strong start.</h1>
+      <p class="hero-sub">We build early-learning centers in underserved communities and train local educators to run them — so a strong start isn't determined by a zip code.</p>
+      <div class="hero-actions">
+        <a href="#donate" class="btn btn-primary">Donate today</a>
+        <a href="#contact" class="btn btn-ghost">Volunteer with us →</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>34</strong><span>Learning centers</span></div>
+        <div><strong>6,200+</strong><span>Children reached</span></div>
+        <div><strong>92%</strong><span>Funds to programs</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="mission">
+    <div class="container mission-grid">
+      <div class="mission-photo"></div>
+      <div>
+        <span class="tag">Our Mission</span>
+        <h2 class="section-title">Access shouldn't be a lottery.</h2>
+        <p>Bright Path was founded in 2014 after our co-founders spent a year documenting the gap between well-funded and under-funded early-learning programs. What we found: the difference wasn't ambition or need — it was access.</p>
+        <p>Today we partner with local communities to build, staff, and sustain early-learning centers that are run by and for the people who live there.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="programs">
+    <div class="container">
+      <span class="tag">Programs</span>
+      <h2 class="section-title">Where your donation goes</h2>
+      <div class="programs-grid">
+        <div class="program-card"><h3>Learning Centers</h3><p>Building and equipping early-learning centers in partner communities.</p></div>
+        <div class="program-card"><h3>Educator Training</h3><p>A 12-week certification program for local early-childhood educators.</p></div>
+        <div class="program-card"><h3>Family Support</h3><p>Meals, health screenings, and family resource programs alongside every center.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="impact">
+    <div class="container">
+      <span class="tag">Our Impact</span>
+      <h2 class="section-title">The numbers, honestly</h2>
+      <div class="impact-grid">
+        <div><strong>34</strong><span>Centers open across 6 countries</span></div>
+        <div><strong>410</strong><span>Educators trained and certified</span></div>
+        <div><strong>6,200+</strong><span>Children served since 2014</span></div>
+        <div><strong>92%</strong><span>Of every dollar goes directly to programs</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="donate">
+    <div class="container donate-band">
+      <div>
+        <span class="tag">Give</span>
+        <h2 class="section-title">$40 funds one child's first month.</h2>
+        <p>Monthly donors keep our centers running year-round — even a small recurring gift makes a real difference.</p>
+      </div>
+      <div class="donate-options">
+        <button class="donate-amt">$20/mo</button>
+        <button class="donate-amt active">$40/mo</button>
+        <button class="donate-amt">$75/mo</button>
+        <button class="donate-amt">Other</button>
+        <a href="#" class="btn btn-primary btn-full">Donate now →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Volunteer</span>
+        <h2 class="section-title">Get involved</h2>
+        <p class="contact-sub">We're always looking for educators, translators, and local coordinators — tell us how you'd like to help.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@brightpath.example">hello@brightpath.example</a>
+          <a href="#">Instagram</a>
+          <a href="#">Annual Report (PDF)</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>How would you like to help? <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Bright Path Foundation · 501(c)(3) non-profit</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

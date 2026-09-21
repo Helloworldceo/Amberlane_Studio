@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ironclad Auto Repair</title>
+<meta name="description" content="Ironclad Auto Repair — honest, certified auto repair. Free quotes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">IRONCLAD <span>AUTO</span></a>
+    <nav class="nav" id="nav">
+      <a href="#services">Services</a>
+      <a href="#why">Why Us</a>
+      <a href="#area">Service Area</a>
+      <a href="#contact">Get a Quote</a>
+    </nav>
+    <a href="tel:+15551234567" class="btn btn-primary nav-cta">(555) 123-4567</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">ASE-Certified · Family Owned Since 1998</p>
+      <h1>Honest auto repair. No upsells, no guessing.</h1>
+      <p class="hero-sub">Ironclad has been fixing cars right the first time for over 25 years. Free diagnostics, upfront pricing, and a 2-year warranty on every repair.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get a free quote</a>
+        <a href="tel:+15551234567" class="btn btn-outline">Call (555) 123-4567</a>
+      </div>
+      <div class="trust-row">
+        <span>★★★★★ 4.9 (620 reviews)</span>
+        <span>ASE Certified</span>
+        <span>2-Year Warranty</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <span class="tag">Services</span>
+      <h2 class="section-title">What we fix</h2>
+      <div class="services-grid">
+        <div class="service-card"><h3>Brakes</h3><p>Pads, rotors, and full brake system diagnostics.</p></div>
+        <div class="service-card"><h3>Engine Diagnostics</h3><p>Check-engine lights, misfires, and performance issues.</p></div>
+        <div class="service-card"><h3>Oil &amp; Fluids</h3><p>Full-synthetic oil changes and fluid flushes.</p></div>
+        <div class="service-card"><h3>Transmission</h3><p>Repair and replacement for automatic and manual transmissions.</p></div>
+        <div class="service-card"><h3>Suspension &amp; Steering</h3><p>Shocks, struts, alignments, and steering repair.</p></div>
+        <div class="service-card"><h3>AC &amp; Heating</h3><p>Full climate system diagnostics and recharge.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="why">
+    <div class="container why-grid">
+      <div>
+        <span class="tag">Why Ironclad</span>
+        <h2 class="section-title">Straight answers, fair prices</h2>
+        <p>We show you the worn part before we replace it. We quote before we touch your car. And every repair is backed by a 2-year, 24,000-mile warranty — parts and labor.</p>
+      </div>
+      <div class="badges-grid">
+        <div class="badge-card"><span class="badge-icon">✓</span><h3>Upfront Pricing</h3><p>You approve the quote before any work begins.</p></div>
+        <div class="badge-card"><span class="badge-icon">✓</span><h3>Certified Techs</h3><p>Every mechanic on our floor is ASE-certified.</p></div>
+        <div class="badge-card"><span class="badge-icon">✓</span><h3>2-Year Warranty</h3><p>Parts and labor, covered nationwide.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="area">
+    <div class="container">
+      <span class="tag">Service Area</span>
+      <h2 class="section-title">Serving the greater Denver metro</h2>
+      <p class="area-sub">Denver · Aurora · Lakewood · Arvada · Westminster · Thornton — free towing within 15 miles for major repairs.</p>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Get a Quote</span>
+        <h2 class="section-title">Tell us what's wrong</h2>
+        <p class="contact-sub">Describe the issue and we'll call you back with a free estimate — usually within the hour.</p>
+        <div class="contact-links">
+          <a href="tel:+15551234567">(555) 123-4567</a>
+          <a href="mailto:service@ironcladauto.example">service@ironcladauto.example</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Phone <input type="tel" name="phone" required></label>
+        <label>Vehicle (year, make, model) <input type="text" name="vehicle" placeholder="e.g. 2018 Honda Civic"></label>
+        <label>What's going on? <textarea name="message" rows="3" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Request free quote</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Ironclad Auto Repair.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

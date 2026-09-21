@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Still Water Yoga</title>
+<meta name="description" content="Still Water Yoga — classes, schedule, instructors, and membership.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Still Water</a>
+    <nav class="nav" id="nav">
+      <a href="#classes">Classes</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#instructors">Instructors</a>
+      <a href="#pricing">Membership</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Book a class</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Yoga &amp; Wellness Studio</p>
+      <h1>Slow down. Breathe. Begin again.</h1>
+      <p class="hero-sub">Still Water is a small studio offering vinyasa, restorative, and breathwork classes in a quiet space designed to feel like an exhale.</p>
+      <div class="hero-actions">
+        <a href="#schedule" class="btn btn-primary">View schedule</a>
+        <a href="#pricing" class="btn btn-ghost">See membership →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="classes">
+    <div class="container">
+      <span class="tag">Classes</span>
+      <h2 class="section-title">Find your practice</h2>
+      <div class="classes-grid">
+        <div class="class-card"><h3>Vinyasa Flow</h3><p>A dynamic, breath-led practice linking movement to breath. All levels.</p></div>
+        <div class="class-card"><h3>Restorative</h3><p>Slow, supported poses held for several minutes — deep rest for the nervous system.</p></div>
+        <div class="class-card"><h3>Breathwork</h3><p>Guided pranayama sessions to build focus, calm, and lung capacity.</p></div>
+        <div class="class-card"><h3>Prenatal</h3><p>Gentle, safe practice for every trimester, led by a certified prenatal instructor.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="schedule">
+    <div class="container">
+      <span class="tag">Weekly Schedule</span>
+      <h2 class="section-title">This week's classes</h2>
+      <table class="schedule-table">
+        <thead><tr><th>Day</th><th>Morning</th><th>Midday</th><th>Evening</th></tr></thead>
+        <tbody>
+          <tr><td>Mon</td><td>7:00 Vinyasa</td><td>12:00 Restorative</td><td>6:00 Breathwork</td></tr>
+          <tr><td>Tue</td><td>7:00 Prenatal</td><td>—</td><td>6:00 Vinyasa</td></tr>
+          <tr><td>Wed</td><td>7:00 Vinyasa</td><td>12:00 Restorative</td><td>6:00 Vinyasa</td></tr>
+          <tr><td>Thu</td><td>7:00 Breathwork</td><td>—</td><td>6:00 Prenatal</td></tr>
+          <tr><td>Fri</td><td>7:00 Vinyasa</td><td>12:00 Restorative</td><td>—</td></tr>
+          <tr><td>Sat</td><td>9:00 Vinyasa</td><td>11:00 Restorative</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" id="instructors">
+    <div class="container">
+      <span class="tag">Instructors</span>
+      <h2 class="section-title">Who you'll practice with</h2>
+      <div class="instructors-grid">
+        <div class="instructor-card"><div class="instructor-photo p1"></div><h3>Wren Callahan</h3><p>Vinyasa &amp; Breathwork · RYT-500</p></div>
+        <div class="instructor-card"><div class="instructor-photo p2"></div><h3>Dev Anand</h3><p>Restorative &amp; Yin · RYT-200</p></div>
+        <div class="instructor-card"><div class="instructor-photo p3"></div><h3>Sana Malik</h3><p>Prenatal &amp; Vinyasa · RPYT</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <span class="tag">Membership</span>
+      <h2 class="section-title">Simple pricing</h2>
+      <div class="pricing-grid">
+        <div class="price-card"><h3>Drop-in</h3><p class="price">$28<span>/class</span></p><p class="price-note">No commitment, all classes</p></div>
+        <div class="price-card featured"><span class="badge">Most popular</span><h3>Unlimited Monthly</h3><p class="price">$139<span>/mo</span></p><p class="price-note">Unlimited classes, cancel anytime</p></div>
+        <div class="price-card"><h3>10-Class Pack</h3><p class="price">$220<span>/pack</span></p><p class="price-note">Valid for 4 months</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Contact</span>
+        <h2 class="section-title">First class is on us</h2>
+        <p class="contact-sub">New here? Your first class is free — just tell us which one you'd like to try.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@stillwateryoga.example">hello@stillwateryoga.example</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Which class would you like to try? <input type="text" name="class" placeholder="e.g. Vinyasa Flow"></label>
+        <button type="submit" class="btn btn-primary">Claim my free class</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Still Water Yoga.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

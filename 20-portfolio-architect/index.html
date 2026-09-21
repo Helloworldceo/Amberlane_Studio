@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mira Voss — Architecture &amp; Interior Design</title>
+<meta name="description" content="Portfolio of Mira Voss, an architect and interior designer working across residential and hospitality projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Mira Voss</a>
+    <nav class="nav" id="nav">
+      <a href="#about">Studio</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline nav-cta">Start a project</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Architecture · Interior Design</p>
+      <h1>Spaces that feel like they were always meant to be there.</h1>
+      <p class="hero-sub">I'm Mira Voss, an architect and interior designer based in Copenhagen. I design homes, small hospitality spaces, and additions that work quietly with light, material, and how people actually live.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View selected work</a>
+        <a href="#contact" class="btn btn-ghost">Start a project →</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>12</strong><span>Years practicing</span></div>
+        <div><strong>34</strong><span>Projects completed</span></div>
+        <div><strong>3</strong><span>Design awards</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-photo" role="img" aria-label="Mira Voss in her studio"></div>
+      <div class="about-card">
+        <span class="tag">Studio</span>
+        <h2>Quiet, material-led design.</h2>
+        <p>I trained as an architect but I've always cared more about how a room feels at 7am than how it photographs. My studio takes on a small number of projects a year — houses, additions, and a handful of restaurants and small hotels — so every one gets full attention.</p>
+        <p>Material honesty, daylight, and proportion do most of the work. Decoration comes last, if at all.</p>
+        <div class="about-facts">
+          <div><span class="k">Based in</span><span class="v">Copenhagen, Denmark</span></div>
+          <div><span class="k">Practice areas</span><span class="v">Residential · Hospitality · Additions</span></div>
+          <div><span class="k">Studio size</span><span class="v">4 architects, 1 studio manager</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="work">
+    <div class="container">
+      <span class="tag">Selected Work</span>
+      <h2 class="section-title">A few recent projects</h2>
+      <div class="work-grid">
+        <article class="work-card wc-1">
+          <div class="work-info"><h3>Kastanje House</h3><p>Private residence · Aarhus, 2025</p></div>
+        </article>
+        <article class="work-card wc-2">
+          <div class="work-info"><h3>Havnegade Loft</h3><p>Interior renovation · Copenhagen, 2024</p></div>
+        </article>
+        <article class="work-card wc-3">
+          <div class="work-info"><h3>Solvang Guesthouse</h3><p>Small hospitality · Skagen, 2024</p></div>
+        </article>
+        <article class="work-card wc-4">
+          <div class="work-info"><h3>Birch Studio Annex</h3><p>Garden studio addition · Roskilde, 2023</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <span class="tag">Services</span>
+      <h2 class="section-title">How we work together</h2>
+      <div class="services-grid">
+        <div class="service-card"><span class="service-num">01</span><h3>Concept &amp; Design</h3><p>Site analysis, early massing, and material direction — enough to see the idea clearly before drawings begin.</p></div>
+        <div class="service-card"><span class="service-num">02</span><h3>Design Development</h3><p>Detailed drawings, material and fixture selection, and coordination with engineers.</p></div>
+        <div class="service-card"><span class="service-num">03</span><h3>Permits &amp; Documentation</h3><p>Full construction documentation and support through the local permitting process.</p></div>
+        <div class="service-card"><span class="service-num">04</span><h3>Site Oversight</h3><p>Regular site visits during construction to keep the built work true to the design.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Contact</span>
+        <h2 class="section-title">Have a site or a house in mind?</h2>
+        <p class="contact-sub">Tell me about the project — the site, the scope, and roughly where you are in the process.</p>
+        <div class="contact-links">
+          <a href="mailto:studio@miravoss.example">studio@miravoss.example</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Tell me about the project <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send inquiry</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Mira Voss Studio.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

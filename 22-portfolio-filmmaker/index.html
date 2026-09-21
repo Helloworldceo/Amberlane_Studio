@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Theo Marsh — Filmmaker &amp; Editor</title>
+<meta name="description" content="Portfolio of Theo Marsh, a filmmaker and editor working on documentary, branded film, and music video.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">THEO MARSH</a>
+    <nav class="nav" id="nav">
+      <a href="#reel">Reel</a>
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline nav-cta">Book a call</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Filmmaker &amp; Editor · Based in Los Angeles</p>
+      <h1>Stories cut with rhythm.</h1>
+      <p class="hero-sub">I direct and edit documentary shorts, branded film, and music video — anything where pacing and sound design carry as much weight as the picture.</p>
+      <div class="hero-actions">
+        <a href="#reel" class="btn btn-primary">▶ Watch the reel</a>
+        <a href="#work" class="btn btn-ghost">See selected work →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reel">
+    <div class="container">
+      <div class="reel-frame">
+        <button class="play-btn" aria-label="Play showreel">▶</button>
+        <span class="reel-label">2026 Showreel — 1:42</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="work">
+    <div class="container">
+      <span class="tag">Selected Work</span>
+      <h2 class="section-title">Recent projects</h2>
+      <div class="work-grid">
+        <article class="work-card wc-1"><span class="work-tag">Documentary</span><div class="work-info"><h3>Concrete Gardens</h3><p>Short doc · 14 min</p></div></article>
+        <article class="work-card wc-2"><span class="work-tag">Branded Film</span><div class="work-info"><h3>Northwind — Launch Film</h3><p>Brand campaign · 2 min</p></div></article>
+        <article class="work-card wc-3"><span class="work-tag">Music Video</span><div class="work-info"><h3>Static Bloom — "Halflight"</h3><p>Music video · 3:20</p></div></article>
+        <article class="work-card wc-4"><span class="work-tag">Documentary</span><div class="work-info"><h3>Night Shift</h3><p>Short doc · 9 min</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <span class="tag">Services</span>
+      <h2 class="section-title">What I do</h2>
+      <div class="services-grid">
+        <div class="service-card"><h3>Directing</h3><p>Documentary shorts, branded content, and music video — from treatment to final cut.</p></div>
+        <div class="service-card"><h3>Editing</h3><p>Narrative and pacing-driven edits for other directors' footage, plus color and sound pass.</p></div>
+        <div class="service-card"><h3>Color Grading</h3><p>Full-service grading in DaVinci Resolve, mood boards included.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Contact</span>
+        <h2 class="section-title">Have a project?</h2>
+        <p class="contact-sub">Send a brief, a reference reel, or just a rough idea — I'll get back within two business days.</p>
+        <div class="contact-links">
+          <a href="mailto:theo@theomarsh.example">theo@theomarsh.example</a>
+          <a href="#">Vimeo</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Project details <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Theo Marsh.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

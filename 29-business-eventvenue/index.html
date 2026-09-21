@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Gable Room — Event Venue</title>
+<meta name="description" content="The Gable Room — a restored 1920s hall for weddings and private events.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">The Gable Room</a>
+    <nav class="nav" id="nav">
+      <a href="#space">The Space</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#packages">Packages</a>
+      <a href="#contact">Inquire</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline nav-cta">Check availability</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">A Restored 1920s Hall · Downtown</p>
+      <h1>Your day, in a room with a hundred years of stories already in it.</h1>
+      <p class="hero-sub">The Gable Room holds up to 180 guests beneath original oak beams and skylights — for weddings, receptions, and private events that don't need a theme to feel special.</p>
+      <div class="hero-actions">
+        <a href="#packages" class="btn btn-primary">View packages</a>
+        <a href="#contact" class="btn btn-outline">Schedule a tour →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="space">
+    <div class="container space-grid">
+      <div>
+        <span class="tag">The Space</span>
+        <h2 class="section-title">Built in 1924. Restored in 2021.</h2>
+        <p>Originally a union hall, The Gable Room kept its original timber trusses, brick walls, and 22-foot ceilings through a two-year restoration. We added modern lighting, climate control, and a full catering kitchen — everything else is exactly as it was.</p>
+        <div class="space-facts">
+          <div><span class="k">Capacity</span><span class="v">Up to 180 seated, 240 standing</span></div>
+          <div><span class="k">Square footage</span><span class="v">5,400 sq ft main hall</span></div>
+          <div><span class="k">Included</span><span class="v">Tables, chairs, in-house sound, parking for 60</span></div>
+        </div>
+      </div>
+      <div class="space-photo"></div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <span class="tag">Gallery</span>
+      <h2 class="section-title">See the room</h2>
+      <div class="gallery-grid">
+        <div class="g-item g1 tall"></div>
+        <div class="g-item g2"></div>
+        <div class="g-item g3"></div>
+        <div class="g-item g4"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="packages">
+    <div class="container">
+      <span class="tag">Packages</span>
+      <h2 class="section-title">Simple, all-inclusive pricing</h2>
+      <div class="packages-grid">
+        <div class="package-card">
+          <h3>Weekday</h3>
+          <p class="price">$3,200</p>
+          <ul><li>8-hour rental</li><li>Tables &amp; chairs included</li><li>In-house sound system</li><li>On-site coordinator</li></ul>
+        </div>
+        <div class="package-card featured">
+          <span class="badge">Most booked</span>
+          <h3>Weekend</h3>
+          <p class="price">$5,800</p>
+          <ul><li>10-hour rental</li><li>Tables, chairs &amp; linens</li><li>In-house sound &amp; lighting</li><li>On-site coordinator + assistant</li><li>Bridal suite access</li></ul>
+        </div>
+        <div class="package-card">
+          <h3>Full Weekend</h3>
+          <p class="price">$9,500</p>
+          <ul><li>Friday setup through Sunday teardown</li><li>Everything in Weekend package</li><li>Rehearsal dinner space included</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Inquire</span>
+        <h2 class="section-title">Check your date</h2>
+        <p class="contact-sub">Tell us your date and rough guest count — we'll get back to you within a day.</p>
+        <div class="contact-links">
+          <a href="mailto:events@thegableroom.example">events@thegableroom.example</a>
+          <a href="tel:+15559871234">(555) 987-1234</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Event date <input type="text" name="date" placeholder="e.g. June 14, 2027"></label>
+        <label>Estimated guest count <input type="text" name="guests" placeholder="e.g. 120"></label>
+        <button type="submit" class="btn btn-primary">Check availability</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 The Gable Room.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

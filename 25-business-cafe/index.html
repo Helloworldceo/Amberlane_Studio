@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fernweh Coffee</title>
+<meta name="description" content="Fernweh Coffee — neighborhood coffee shop. Menu, hours, and order-ahead.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Fernweh</a>
+    <nav class="nav" id="nav">
+      <a href="#about">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact">Order Ahead</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary nav-cta">Order ahead</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">Neighborhood Coffee Shop</p>
+      <h1>Coffee worth the walk.</h1>
+      <p class="hero-sub">Fernweh is a small-batch coffee shop roasting on-site, serving pastries baked fresh every morning, and pouring the kind of coffee that makes you rearrange your route to work.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See the menu</a>
+        <a href="#visit" class="btn btn-ghost">Find us →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-photo"></div>
+      <div>
+        <span class="tag">Our Story</span>
+        <h2 class="section-title">Started with one roaster, in a garage.</h2>
+        <p>Fernweh opened in 2019 after our founder, Ines, spent three years roasting coffee in her garage for anyone who'd try it. We still roast every bag in-house, in small batches, sourced directly from three family farms we visit every year.</p>
+        <p>No syrups, no gimmicks — just good beans, treated carefully.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="menu">
+    <div class="container">
+      <span class="tag">Menu</span>
+      <h2 class="section-title">What we're pouring</h2>
+      <div class="menu-cols">
+        <div class="menu-col">
+          <h3>Coffee</h3>
+          <div class="menu-row"><span>House Drip</span><span class="price">$3.50</span></div>
+          <div class="menu-row"><span>Cortado</span><span class="price">$4.25</span></div>
+          <div class="menu-row"><span>Oat Milk Latte</span><span class="price">$5.00</span></div>
+          <div class="menu-row"><span>Cold Brew</span><span class="price">$4.50</span></div>
+          <div class="menu-row"><span>Pour Over (single origin)</span><span class="price">$5.50</span></div>
+        </div>
+        <div class="menu-col">
+          <h3>Pastries</h3>
+          <div class="menu-row"><span>Brown Butter Croissant</span><span class="price">$4.00</span></div>
+          <div class="menu-row"><span>Cardamom Bun</span><span class="price">$3.75</span></div>
+          <div class="menu-row"><span>Sourdough Toast, jam</span><span class="price">$6.00</span></div>
+          <div class="menu-row"><span>Banana Bread</span><span class="price">$3.50</span></div>
+          <div class="menu-row"><span>Seasonal Galette</span><span class="price">$5.25</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="visit">
+    <div class="container visit-grid">
+      <div>
+        <span class="tag">Visit</span>
+        <h2 class="section-title">Come say hi</h2>
+        <div class="visit-facts">
+          <div><span class="k">Address</span><span class="v">214 Larch Street, Portland, OR</span></div>
+          <div><span class="k">Hours</span><span class="v">Mon–Fri 7am–4pm · Sat–Sun 8am–3pm</span></div>
+          <div><span class="k">Parking</span><span class="v">Street parking, bike rack out front</span></div>
+        </div>
+      </div>
+      <div class="map-placeholder" role="img" aria-label="Map showing Fernweh Coffee location"></div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Order Ahead</span>
+        <h2 class="section-title">Skip the line</h2>
+        <p class="contact-sub">Send us your order and pickup time — we'll have it ready when you walk in.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Order <textarea name="message" rows="3" required placeholder="e.g. 2 cortados, 1 cardamom bun"></textarea></label>
+        <label>Pickup time <input type="text" name="time" placeholder="e.g. 8:15am" required></label>
+        <button type="submit" class="btn btn-primary">Place order</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Fernweh Coffee.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

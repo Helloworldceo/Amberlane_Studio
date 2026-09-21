@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offscript — a podcast hosted by Nia Bello</title>
+<meta name="description" content="Offscript is a weekly interview podcast hosted by Nia Bello — episodes, guests, and booking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Offscript</a>
+    <nav class="nav" id="nav">
+      <a href="#episodes">Episodes</a>
+      <a href="#about">About</a>
+      <a href="#press">Press</a>
+      <a href="#contact">Book Nia</a>
+    </nav>
+    <a href="#listen" class="btn btn-primary nav-cta">Listen now</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">A weekly interview podcast</p>
+      <h1>Offscript</h1>
+      <p class="hero-sub">Hosted by Nia Bello. Long, unrushed conversations with founders, artists, and scientists about the decision that changed everything — the one that never made the press release.</p>
+      <div class="waveform" id="listen" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero-actions">
+        <a href="#episodes" class="btn btn-primary">▶ Listen to the latest</a>
+        <a href="#" class="btn btn-outline">Apple Podcasts</a>
+        <a href="#" class="btn btn-outline">Spotify</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>184</strong><span>Episodes</span></div>
+        <div><strong>2.1M</strong><span>Downloads</span></div>
+        <div><strong>4.9★</strong><span>Average rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="episodes">
+    <div class="container">
+      <span class="tag">Latest Episodes</span>
+      <h2 class="section-title">Recent conversations</h2>
+      <ul class="episode-list">
+        <li class="ep-item"><button class="ep-play" aria-label="Play episode">▶</button><div class="ep-info"><h3>#184 — Building in public, then regretting it</h3><p>with Marcus Ilinov, founder of Driftline</p></div><span class="ep-len">58 min</span></li>
+        <li class="ep-item"><button class="ep-play" aria-label="Play episode">▶</button><div class="ep-info"><h3>#183 — What ten years on stage teaches you about silence</h3><p>with Priya Nandan, violinist</p></div><span class="ep-len">44 min</span></li>
+        <li class="ep-item"><button class="ep-play" aria-label="Play episode">▶</button><div class="ep-info"><h3>#182 — The experiment that failed for six years straight</h3><p>with Dr. Femi Okoro, chemist</p></div><span class="ep-len">67 min</span></li>
+        <li class="ep-item"><button class="ep-play" aria-label="Play episode">▶</button><div class="ep-info"><h3>#181 — Quitting a job everyone said was a dream job</h3><p>with Elena Vasquez, ex-chef</p></div><span class="ep-len">51 min</span></li>
+      </ul>
+      <a href="#" class="see-all">Browse all 184 episodes →</a>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="about">
+    <div class="container about-grid">
+      <div class="about-photo"></div>
+      <div>
+        <span class="tag">About the host</span>
+        <h2 class="section-title">Hi, I'm Nia.</h2>
+        <p>I started Offscript in 2022 after a decade in documentary radio, tired of interviews that stopped right when things got interesting. Every episode is one conversation, no notes, no press-trained answers — just enough time to actually get somewhere.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="press">
+    <div class="container">
+      <span class="tag">As Heard In</span>
+      <div class="press-row">
+        <span>The Atlantic</span><span>NPR</span><span>Longreads</span><span>Pocket Casts</span><span>Podcast Movement</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <span class="tag">Book Nia</span>
+        <h2 class="section-title">Have a guest in mind, or want to sponsor?</h2>
+        <p class="contact-sub">We book guests two months out and take on a small number of sponsors per season.</p>
+        <div class="contact-links">
+          <a href="mailto:hello@offscriptpod.example">hello@offscriptpod.example</a>
+          <a href="#">Instagram</a>
+          <a href="#">X / Twitter</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>What's this about? <textarea name="message" rows="4" required></textarea></label>
+        <button type="submit" class="btn btn-primary">Send</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2026 Offscript Podcast.</p>
+    <a href="#home" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
